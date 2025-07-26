@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8928a17b96f15474781912a15424be56, type: 3}
+  m_Name: Greeting with Bob
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 4b121f6d0aabc714a849a34804930fc4, type: 2}
+    text: Hi
+  - speaker: {fileID: 11400000, guid: 4b121f6d0aabc714a849a34804930fc4, type: 2}
+    text: i need some space
+  - speaker: {fileID: 11400000, guid: 8c60d6549cec07c43a2bdfa034acf568, type: 2}
+    text: ok
+  options:
+  - optionText: Tell me more!
+    nextDialogue: {fileID: 11400000, guid: e860454a08130184fb4c52ff4633bf80, type: 2}
+  - optionText: No interested
+    nextDialogue: {fileID: 11400000, guid: e634985521203fb4085ec5d0f9735be9, type: 2}
